@@ -1,0 +1,1310 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title></title>
+		<!--引用外部css-->
+		<link rel="stylesheet" href="./详情.css"/>
+		<!--引用外部js-->
+		<script src="jquery-1.8.3.min.js"></script>
+		<script src="./详情.js"></script>
+	</head>
+	<body>                                                 
+		<!--定义全局-->
+		<div id="wrap">
+			<!--头部-->
+			<div id="header">
+				<!--灰色主体导航栏-->
+				<div class="header-top">
+					<div class="ht-left">
+						<span>送至: 北京</span>
+							<table>
+								<tr>
+									<td>
+										<option value="0" >
+										北京
+										</option>
+									</td>
+									<td>
+										<option value="1">
+										上海
+									</option></td>
+									<td>
+										<option value="2">天津
+										</option>
+									</td>
+									<td>
+										<option value="3">重庆
+										</option></td>
+									<td>
+										<option value="4">河北
+										</option>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<option value="5">山西
+										</option>
+									</td>
+									<td>
+										<option value="6">河南
+										</option>
+									</td>
+									<td>
+										<option value="7">辽宁
+										</option>
+									</td>
+									<td>
+										<option value="8">吉林
+										</option>
+									</td>
+									<td>
+										<option value="9">黑龙江
+										</option>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<option value="10">内蒙古</option>
+									</td>
+									<td>
+										<option value="11">江苏</option>
+									</td>
+									<td>
+										<option value="12">山东</option>
+									</td>
+									<td>
+										<option value="13">安徽</option>
+									</td>
+									<td><option value="14">浙江</option>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<option value="15">福建</option>
+									</td>
+									<td>
+										<option value="16">湖北</option>
+									</td>
+									<td>
+										<option value="17">湖南</option>
+									</td>
+									<td>
+										<option value="18">广东</option>
+									</td>
+									<td>
+										<option value="19">广西</option>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<option value="20">江西</option>
+									</td>
+									<td>
+										<option value="21">四川</option>
+									</td>
+									<td>
+										<option value="22">海南</option>
+									</td>
+									<td>
+										<option value="23">贵州</option>
+									</td>
+									<td>
+										<option value="24">云南</option>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<option value="25">西藏</option>
+									</td>
+									<td>
+										<option value="26">陕西</option>
+									</td>
+									<td>
+										<option value="27">甘肃</option>
+									</td>
+									<td>
+										<option value="28">青海</option>
+									</td>
+									<td>
+										<option value="29">宁夏</option>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<option value="30">新疆</option>
+									</td>
+									<td>
+										<option value="31">港澳</option>
+									</td>
+									<td>
+										<option value="32">台湾</option>
+									</td>
+									<td>
+										<option value="33">钓鱼岛</option>
+									</td>
+									<td>
+										<option value="34">海外</option>
+									</td>
+								</tr>
+							</table>
+
+							<!--备用送至-->
+							<!-- <ul class="ul">
+								<li>
+									<a href="#" class="one">北京</a>
+									<a href="#">山西</a>
+									<a href="#">内蒙古</a>
+									<a href="#">福建</a>
+									<a href="#">江西</a>
+									<a href="#">西藏</a>
+									<a href="#">新疆</a>
+								</li>
+								<li>
+									<a href="#">上海</a>
+									<a href="#">河南</a>
+									<a href="#">江苏</a>
+									<a href="#">湖北</a>
+									<a href="#">四川</a>
+									<a href="#">陕西</a>
+									<a href="#">港澳</a>
+								</li>
+								<li>
+									<a href="#">天津</a>
+									<a href="#">辽宁</a>
+									<a href="#">山东</a>
+									<a href="#">湖南</a>
+									<a href="#">海南</a>
+									<a href="#">甘肃</a>
+									<a href="#">台湾</a>
+								</li>
+								<li>
+									<a href="#">重庆</a>
+									<a href="#">吉林</a>
+									<a href="#">安徽</a>
+									<a href="#">广东</a>
+									<a href="#">贵州</a>
+									<a href="#">青海</a>
+									<a href="#">钓鱼岛</a>
+								</li>
+								<li>
+									<a href="#">河北</a>
+									<a href="#">黑龙江</a>
+									<a href="#">浙江</a>
+									<a href="#">广西</a>
+									<a href="#">云南</a>
+									<a href="#">宁夏</a>
+									<a href="#">海外</a>
+								</li>
+							</ul> -->
+					</div>
+						<div class="ht-center">
+						<ul>
+							<li>
+								<a href="#">
+									<span>
+										<a href="../登录页面/denglu.html">
+									你好，请登录
+										</a>
+									</span>
+									<span class="mfzc">
+										<a href="../注册页面/zhuce.html">
+									免费注册
+										</a>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									我的订单
+								</a>
+							</li>
+							<li class="la">
+								<a href="#">
+									我的京东<img src="../方向/向下边框三角.png" width="16px"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									京东会员
+								</a>
+							</li>
+						</ul>
+						
+					</div>
+					<div class="ht-right">
+						<ul>
+							<li>
+								<a href="#">
+									企业采购
+								</a>
+							</li>
+							<li class="la">
+								<a href="#">
+									手机京东<img src="../方向/向下边框三角.png" width="16px"/>
+								</a>
+							</li>
+							<li class="la">
+								<a href="#">
+									关注京东<img src="../方向/向下边框三角.png" width="16px"/>
+								</a>
+							</li>
+							<li class="la">
+								<a href="#">
+									客户服务<img src="../方向/向下边框三角.png" width="16px"/>
+								</a>
+							</li>
+							<li class="la">
+								<a href="#">
+									网站导航<img src="../方向/向下边框三角.png" width="16px"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--有logo部分导航栏-->
+				<div class="header-middle">
+					<div class="hm-left">
+						<!--logo-->
+						<a href="../京东首页/jd.html">
+							<img src="./详情/京东狗.png"/>
+						</a>
+						<!--下拉-->
+						<span class="qbfl"><a href="">全部分类</a><img src="../方向/向下边框三角.png" width="16px"/></span>
+						<!--下拉-->
+						<ul >
+							<li><a href="">家用电器</a></li>
+							<li><a href="">手机</a>、<a href="">运营商</a>、<a href="">数码</a></li>
+							<li><a href="">电脑</a>、<a href="">办公</a></li>
+							<li><a href="">家居</a>、<a href="">家具</a>、<a href="">家装</a>、<a href="">厨具</a></li>
+							<li><a href="">男装</a>、<a href="">女装</a>、<a href="">童装</a>、<a href="">内衣</a></li>
+							<li><a href="">美妆个护</a>、<a href="">宠物</a></li>
+							<li><a href="">女鞋</a>、<a href="">箱包</a>、<a href="">钟表</a>、<a href="">珠宝</a></li>
+							<li><a href="">男鞋</a>、<a href="">运动</a>、<a href="">户外</a></li>
+							<li><a href="">房产</a>、<a href="">汽车</a>、<a href="">汽车用品</a></li>
+							<li><a href="">母婴</a>、<a href="">玩具乐器</a></li>
+							<li><a href="">食品</a>、<a href="">酒类</a>、<a href="">生鲜</a>、<a href="">特产</a></li>
+							<li><a href="">艺术</a>、<a href="">礼品鲜花</a>、<a href="">农资绿植</a></li>
+							<li><a href="">医药保健</a>、<a href="">计生情趣</a></li>
+							<li><a href="">图书</a>、<a href="">音像</a>、<a href="">电子书</a></li>
+							<li><a href="">机票</a>、<a href="">酒店</a>、<a href="">旅游</a>、<a href="">生活</a></li>
+							<li><a href="">理财</a>、<a href="">众筹</a>、<a href="">白条</a>、<a href="">保险</a></li>
+						</ul>
+					</div>
+					<div class="hm-center">
+						<div class="hmc-top">
+							<input type="text" placeholder="零食" />
+							<input type="submit" value="搜全站"/>
+							<input type="submit" value="搜本店"/>
+						</div>
+						<div class="hmc-bottom">
+							<ul>
+								<li><a href="#">坚果蜜饯</a></li>
+								<li><a href="#">坚果</a></li>
+								<li><a href="#">肉干</a></li>
+								<li><a href="#">饼干蛋糕</a></li>
+								<li><a href="#">糖果</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="hm-right">
+						<button>
+							<span>我的购物车</span>
+							<img src="./详情/购物车呀.png" width="24px"/>
+						</button>
+					</div>
+
+				</div>
+				<!--有图片的商品导航-->
+				<div class="header-bottom">
+					<!--紫色导航栏-->
+					<div class="hb-top">
+						<img src="./详情/紫色商品图片.jpg"/>
+						<img src="./详情/紫色.jpg"/>
+					</div>
+					<!--灰色具体商品导航栏-->
+					<div class="hb-bottom">
+						<ul>
+							<li><a href="#">食品饮料</a></li>
+							<li><span>&gt;</span></li>
+							<li><a href="#">休闲食品</a></li>
+							<li><span>&gt;</span></li>
+							<li><a href="#">肉干肉脯</a></li>
+							<li><span>&gt;</span></li>
+							<li><a href="#">老川东</a></li>
+							<li><span>&gt;</span></li>
+							<li><a href="#">老川东牛肉丝麻辣味...</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--主体-->
+			<div id="main">
+				<div class="main1">
+					<!--放大镜-->
+					<div class="main1-left">
+						<!--小图-->
+						<div id="small">
+							<img id="spic" src="./详情/one.jpg"/>
+							<div id="move"></div>
+						</div>
+						<!--大图-->
+						<div id="big">
+							<img id="bpic" src="./详情/one.jpg"/>
+						</div>
+						<!--图片更换事件-->
+						<div id="cont">
+							<ul id="dian">
+								<li><img src="./详情/one.jpg"/></li>
+								<li><img src="./详情/two.jpg"/></li>
+								<li><img src="./详情/three.jpg"/></li>
+								<li><img src="./详情/four.jpg"/></li>
+								<li><img src="./详情/five.jpg"/></li>
+							<!-- 	<li><img src="./详情/six.jpg"/></li> -->
+							</ul>
+							<div id="lt" class="tt">&lt;</div>
+							<div id="gt" class="tt">&gt;</div>
+						</div>
+						<div id="gfj">
+							<ul>
+								<li>
+									<img src="./详情/爱心.png" width="20px"/>
+									<a href="#">关注</a>
+								</li>
+								<li>
+									<img src="./详情/分享.png" width="20px"/>
+									<a href="#">分享</a>
+								</li>
+								<li><a href="#">举报</a></li>
+							</ul>
+						</div>
+					</div>
+					<!--商品详细介绍-->
+					<div class="main1-center">
+						<div class="jd1">
+							<img src="./详情/京东超市.png"/>
+							<h3>老川东 牛肉干小吃零食 灯影牛肉丝麻辣味13g*20袋/盒(新老包装随机发货)</h3>
+							<p>京东自营,无肉不欢,肉干肉脯年货礼盒低至满188减90<span><a href="#">【更多优惠点击这里】</a></span>(此商品不参加上述活动)</p>	
+						</div>
+						<div class="jd2">
+							<div class="jd2-left">
+								<p>京东价 <span>&yen;32.50</span>
+									<span>降价通知</span> </p>
+								<p>优惠券 
+									<ul>
+										<li><a href="">满88减13</a></li>
+										<li><a href="">满88减13</a></li>
+										<li><a href="">满88减13</a></li>
+									</ul>
+									<ul class="meng">
+										<li><a href=""></a></li>
+										<li><a href=""></a></li>
+										<li><a href=""></a></li>
+									</ul>
+									<span class="geng">更多&gt;&gt;</span>
+								</p>
+								<p id="cx"><span>促&nbsp;销</span> <span>满减</span><span>满99元减50元,满188元减90元</span><span>详情 &gt;&gt;</span></p>
+							</div>
+							<div class="jd2-right">
+								<p>累计评价<span><a href="#">3万+</a></span></p>
+							</div>
+						</div>
+						<div class="jd3">
+							<div>配送至 <span class="pei">北京朝阳区三环以内</span>
+								<div class="xuan">
+									<div class="xtop">
+										选择新地址
+									</div>
+									<div class="xmiddle">
+										<ul>
+											<li class="bei1"><a>北京</a></li>
+											<li class="bei2"><a>朝阳区</a></li>
+											<li class="bei3"><a>三环以内</a></li>
+										</ul>
+									</div>
+									<div class="xbottom">
+										<div class="beione">
+											<ul>
+												<li>
+													<a href="">北京</a>
+												</li>
+												<li>
+													<a href="">河北</a>
+												</li>
+												<li>
+													<a href="">吉林</a>
+												</li>
+												<li>
+													<a href="">山东</a>
+												</li>
+												<li>
+													<a href="">湖北</a>
+												</li>
+												<li>
+													<a href="">江西</a>
+												</li>
+												<li>
+													<a href="">云南</a>
+												</li>
+												<li>
+													<a href="">青海</a>
+												</li>
+												<li>
+													<a href="">港澳</a>
+												</li>
+											</ul>
+											<ul>
+												<li>
+													<a href="">上海</a>
+												</li>
+												<li>
+													<a href="">山西</a>
+												</li>
+												<li>
+													<a href="">黑龙江</a>
+												</li>
+												<li>
+													<a href="">安徽</a>
+												</li>
+												<li>
+													<a href="">湖南</a>
+												</li>
+												<li>
+													<a href="">四川</a>
+												</li>
+												<li>
+													<a href="">西藏</a>
+												</li>
+												<li>
+													<a href="">宁夏</a>
+												</li>
+												<li>
+													<a href="">钓鱼岛</a>
+												</li>
+											</ul>
+											<ul>
+												<li>
+													<a href="">天津</a>
+												</li>
+												<li>
+													<a href="">河南</a>
+												</li>
+												<li>
+													<a href="">内蒙古</a>
+												</li>
+												<li>
+													<a href="">浙江</a>
+												</li>
+												<li>
+													<a href="">广东</a>
+												</li>
+												<li>
+													<a href="">海南</a>
+												</li>
+												<li>
+													<a href="">陕西</a>
+												</li>
+												<li>
+													<a href="">新疆</a>
+												</li>
+												<li>
+													<a href="">海外</a>
+												</li>
+											</ul>
+											<ul>
+												<li>
+													<a href="">重庆</a>
+												</li>
+												<li>
+													<a href="">辽宁</a>
+												</li>
+												<li>
+													<a href="">江苏</a>
+												</li>
+												<li>
+													<a href="">福建</a>
+												</li>
+												<li>
+													<a href="">广西</a>
+												</li>
+												<li>
+													<a href="">贵州</a>
+												</li>
+												<li>
+													<a href="">甘肃</a>
+												</li>
+												<li>
+													<a href="">台湾</a>
+												</li>
+											</ul>
+										</div>
+										<div class="beitwo">
+											<ul>
+												<li>
+													<a href="">朝阳区</a>
+												</li>
+												<li>
+													<a href="">崇文区</a>
+												</li>
+												<li>
+													<a href="">门头沟</a>
+												</li>
+												<li>
+													<a href="">顺义区</a>
+												</li>
+												<li>
+													<a href="">平谷区</a>
+												</li>
+											</ul>
+											<ul>
+												<li>
+													<a href="">海淀区</a>
+												</li>
+												<li>
+													<a href="">宣武区</a>
+												</li>
+												<li>
+													<a href="">房山沟</a>
+												</li>
+												<li>
+													<a href="">怀柔区</a>
+												</li>
+												<li>
+													<a href="">延庆县</a>
+												</li>
+											</ul>
+											<ul>
+												<li>
+													<a href="">西城区</a>
+												</li>
+												<li>
+													<a href="">丰台区</a>
+												</li>
+												<li>
+													<a href="">通州区</a>
+												</li>
+												<li>
+													<a href="">密云区</a>
+												</li>
+											</ul>
+											<ul>
+												<li>
+													<a href="">东城区</a>
+												</li>
+												<li>
+													<a href="">石景山区</a>
+												</li>
+												<li>
+													<a href="">大兴区</a>
+												</li>
+												<li>
+													<a href="">昌平区</a>
+												</li>
+											</ul>
+										</div>
+										<div class="beithree">
+											<ul>
+												<li>
+													<a href="">四环到五环之间</a>
+												</li>
+												<li>
+													<a href="">管庄</a>
+												</li>
+												<li>
+													<a href="">北苑</a>
+												</li>
+											</ul>
+											<ul>
+												<li>
+													<a href="">定福庄</a>
+												</li>
+												<li>
+													<a href="">三环以内</a>
+												</li>
+												<li>
+													<a href="">五环到六环之间</a>
+												</li>
+											</ul>
+											<ul>
+												<li>
+													<a href="">三环到四环之间</a>
+												</li>
+											</ul>
+										</div>
+
+									</div>
+								</div>
+								<span class="you">有货</span>
+							</div>
+							<div class="zc">
+								<span>支持</span> 
+								<ul>
+									<li>99元免基础运费(20kg内)</li>
+									<li>货到付款</li>
+									<li>京准达</li>
+									<li>夜间配</li>
+								</ul>
+							</div>
+							<p>由<span>京东</span>发货,并提供售后服务.23:00前下单,预计<span>明天(05月15日)</span>送达</p>
+							<p>重&nbsp;量<span>0.34kg</span></p>
+						</div>
+						<div class="jd4">
+							<div class="bai">
+								<div class="tiao">白条分期</div>
+								<ul class="in">
+									<li class="in1">
+										<a href="#">
+											不分期
+										</a>
+									</li>
+									
+									<li class="in2">
+										<a href="#">
+											&yen;10.83×3期
+										</a>
+									</li>
+									
+									<li class="in3">
+										<a href="#">&yen;5.58起×6期
+										</a>
+									</li>
+									
+									<li class="in4">
+										<a href="#">
+										&yen;2.87起×12期
+										</a>
+									</li>
+									
+									<li class="in5">
+										<a href="#">
+										&yen;1.52起×24期
+										</a>
+									</li>
+									
+								</ul>
+								<ul class="out">
+									<li class="bt1">无手续费</li>
+									<li class="bt2">无手续费</li>
+									<li class="bt3">含手续费：费率0.5%起，&yen;0.16起×6期</li>
+									<li class="bt4">含手续费：费率0.5%起，&yen;0.16起×12期 </li>
+									<li class="bt5">含手续费：费率0.5%起，&yen;0.16起×24期 </li>
+								</ul>
+							</div>
+							<div class="hw">
+								<ul>
+									<li>
+										<img class="hui1" src="./详情/优惠.png" height="22px"/>
+										<div class="hui2">
+											【白条支付】3期免息
+										</div>
+									</li>
+									<li>
+										<img  class="wen1" src="./详情/问好.png" height="26px"/>
+										<div class="wen2">
+											<img  src="./详情/wen2.png"/>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="car">
+								<input class="s" type="number" value="1"  />
+								<div class="zj">
+									<button class="z">+</button>
+									<button class="j">-</button>
+								</div>
+								<button class="carbutton">加入购物车</button>
+							</div>
+							<p class="wxts">温馨提示   &nbsp;&nbsp;不支持7天无理由退货</p>
+						</div>
+					</div>
+					<div class="main1-right">
+						<div class="mr-top">看了又看</div>
+						<div id="slb">
+								<ul class="cont">
+									<li style="display:block">
+										<ul>
+											<li>
+												<img src="./详情/57c69f45Nd754534a.jpg"/>
+												<ul>
+													<li class="yin" href="">老川东 休闲四川小吃零食 麻辣牛肉干100g</li>
+													<li class="jg">&yen;12.80</li>
+												</ul>
+											</li>
+											<li>
+												<img src="./详情/5aaa1972Na81e6042.jpg"/>
+												<ul>
+													<li class="yin" href="">老川东 牛肉干小吃零食 灯影牛肉丝五香味13g*20袋/盒 （新老包装随机发货）</li>
+													<li class="jg">&yen;32.50</li>
+												</ul>
+											</li>
+											<li>
+												<img src="./详情/57c69fcfNd589cfd1.jpg"/>
+												<ul>
+													<li class="yin" href="">老川东 休闲零食 四川小吃 麻辣牛肉干200g</li>
+													<li class="jg">&yen;38.80</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul>
+											<li>
+												<img src="./详情/57c6a3fcN61b5d538.jpg"/>
+												<ul>
+													<li class="yin" href="">老川东 肉干 肉脯 休闲小吃 牛肉干五香味45g（新老包装随机发货）</li>
+													<li class="jg">&yen;11.80</li>
+												</ul>
+											</li>
+											<li>
+												<img src="./详情/57b666bdN3a61ba42.jpg"/>
+												<ul>
+													<li class="yin" href="">老川东 肉干 肉脯 零食 四川小吃 独立小包 牛肉干五香味100g</li>
+													<li class="jg">&yen;22.80</li>
+												</ul>
+											</li>
+											<li>
+												<img src="./详情/58140461N68656faa.jpg"/>
+												<ul>
+													<li class="yin" href="">老川东 肉干肉脯 休闲零食四川小吃 牛板筋麻辣味100g</li>
+													<li class="jg">&yen;13.90</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul>
+											<li>
+												<img src="./详情/57c6a431N39d71db3.jpg"/>
+												<ul>
+													<li class="yin" href="">老川东 肉干 肉脯 休闲零食四川小吃 牛肉干香辣味45g</li>
+													<li class="jg">&yen;11.80</li>
+												</ul>
+											</li>
+											<li>
+												<img src="./详情/57b666f2N430908f6.jpg"/>
+												<ul>
+													<li class="yin" href="">老川东 肉干 肉脯 休闲零食 牛肉干麻辣味100g</li>
+													<li class="jg">&yen;22.80</li>
+												</ul>
+											</li>
+											<li>
+												<img src="./详情/57c69ef9N96ef462c.jpg"/>
+												<ul>
+													<li class="yin" href="">老川东 牛肉干休闲零食 年货小吃 独立小包 牛肉丝五香味100g</li>
+													<li class="jg">&yen;19.80</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+						</div>
+						<div class="fan">
+							<ul>
+								<li class="top">
+									<img src="../方向/向上边框三角.png" width="46px"/>
+								</li>
+								<li class="bottom">
+									<img src="../方向/向下边框三角.png" width="46px"/>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="main2">
+					<!--店长推荐-->
+					<div class="main2-top">
+						<div class="m2t-top">
+							<div class="dztj">店长推荐</div>
+						</div>
+						<div class="m2t-bottom">
+							<ul>
+								<li>
+									<img src="./详情/56df91ebN60c208fa.jpg"/>
+									<div class="sbx">
+										<a href="">
+											老川东 休闲零食 麻辣牛肉干100g
+										</a>
+									</div>
+									<p>&yen;12.80</p>
+								</li>
+								<li>
+									<img src="./详情/578c9932Nc7a350b0.jpg"/>
+									<div class="sbx">
+										<a href="">
+											老川东 牛肉干零食 牛肉丝麻辣味288g
+										</a>
+									</div>
+									<p>暂无报价</p>
+								</li>
+								<li>
+									<img src="./详情/55fa35a0Nb2719cea.jpg"/>
+									<div class="sbx">
+										<a href="">
+											老川东 肉干 肉脯 牛肉干 五香味45g
+										</a>
+									</div>
+									<p>&yen;11.80</p>
+								</li>
+								<li>
+									<img src="./详情/55f63fd9N3151d131.jpg"/>
+									<div class="sbx">
+										<a href="">
+											老川东 休闲 零食 牛肉干 香辣味45g
+										</a>
+									</div>
+									<p>&yen;11.80</p>
+								</li>
+								<li>
+									<img src="./详情/578ca430Nf8ad0981.jpg"/>
+									<div class="sbx">
+										<a href="">
+											老川东 牛肉干零食 牛肉丝五香味100g
+										</a>
+									</div>
+									<p>&yen;19.80</p>
+								</li>
+								<li>
+									<img src="./详情/578ca3dcN7c2f4389.jpg"/>
+									<div class="sbx">
+										<a href="">
+											老川东 牛肉干零食 牛肉丝麻辣味100g
+										</a>
+									</div>
+									<p>&yen;13.90</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--店内搜索一栏-->
+					<div class="main2-middle">
+						<div class="m2m-left">
+							<!--店内搜索-->
+							<div class="m2ml-top">
+								<div class="m2mlt-top">
+									店内搜索
+								</div>
+								<div class="m2mlt-bottom">
+									关键字：<input type="text" name="gjz"/><br/>
+									价&nbsp;格：<input type="text" name="xj"/> 到 <input type="text" name="dj"/><br/>
+									<button>搜索</button>
+								</div>
+							</div>
+							<!--店内分类-->
+							<div class="m2ml-middle">
+								<div class="m2mlm-top">
+									店内分类
+								</div>
+								<div class="m2mlm-bottom">
+									<ul>
+										<li><a href="">所有商品</a></li>
+										<li><a href="">麻辣牛肉</a></li>
+										<li><a href="">牛肉丝</a></li>
+										<li><a href="">牛肉干</a></li>
+										<li><a href="">牛肉粒</a></li>
+										<li><a href="">牛板筋</a></li>
+										<li><a href="">品牌故事</a></li>
+									</ul>
+								</div>
+							</div>
+							<!--店铺热销-->
+							<div class="m2ml-bootom">
+								<div class="m2mlb-top">
+									店铺热销
+								</div>
+								<div class="m2mlb-bottom">
+									<ul>
+										<li>
+											<img src="./详情/5aaa19b7Nbbbca2db.jpg"/>
+											<div class="dsbx">
+												<a href="">
+												老川东 牛肉干小吃零食 灯影牛肉丝麻辣味13g*20袋/盒 （新老包装随机发货）
+												</a>
+											</div>
+											<span class="num">
+												1
+											</span>
+											<span class="rx">热销17780件</span>
+											<span class="dpj">&yen;32.50</span>
+										</li>
+										<li>
+											<img src="./详情/57c69f45Nd754534a.jpg"/>
+											<div class="dsbx">
+												<a href="">
+												老川东 休闲四川小吃零食 麻辣牛肉干100g
+												</a>
+											</div>
+											<span class="num">
+												2
+											</span>
+											<span class="rx">热销8326件</span>
+											<span class="dpj">&yen;12.80</span>
+										</li>
+										<li>
+											<img src="./详情/5aaa1972Na81e6042.jpg"/>
+											<div class="dsbx">
+												<a href="">
+												老川东 牛肉干小吃零食 灯影牛肉丝五香味13g*20袋/盒 （新老包装随机发货）
+												</a>
+											</div>
+											<span class="num">
+												3
+											</span>
+											<span class="rx">热销4204件</span>
+											<span class="dpj">&yen;32.50</span>
+										</li>
+										<li>
+											<img src="./详情/57c69fcfNd589cfd1.jpg"/>
+											<div class="dsbx">
+												<a href="">
+												老川东 休闲零食 四川小吃 麻辣牛肉干200g
+												</a>
+											</div>
+											<span class="num">
+												4
+											</span>
+											<span class="rx">热销3039件</span>
+											<span class="dpj">&yen;38.80</span>
+										</li>
+										<li>
+											<img src="./详情/57c6a3fcN61b5d538.jpg"/>
+											<div class="dsbx">
+												<a href="">
+												老川东 肉干 肉脯 休闲小吃 牛肉干五香味45g（新老包装随机发货）
+												</a>
+											</div>
+											<span class="num">
+												5
+											</span>
+											<span class="rx">热销2284件</span>
+											<span class="dpj">&yen;11.80</span>
+										</li>
+										<li>
+											<img src="./详情/57b666bdN3a61ba42.jpg"/>
+											<div class="dsbx">
+												<a href="">
+												老川东 肉干 肉脯 零食 四川小吃 独立小包 牛肉干五香味100g
+												</a>
+											</div>
+											<span class="num">
+												6
+											</span>
+											<span class="rx">热销1812件</span>
+											<span class="dpj">&yen;22.80</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="m2ml-tu">
+								<img src="./详情/57b274f0N2bb76db8.jpg"/>
+								<img src="./详情/5aedcb6bN55b62aef.jpg"/>
+							</div>
+						</div>
+						<div class="m2m-right">
+							<div class="m2mr-top">
+									<!--导航-->
+									<div class="dao">
+										<ul>
+											<li class="selected">商品介绍</li>
+											<li>规格与包装</li>
+											<li>售后保障</li>
+											<li>商品评价(3万+)</li>
+											<li>本店好评商品</li>
+										</ul>
+									</div>
+									
+									<!--内容-->
+									<div class="nei">
+										<div>
+											<table>
+												<tr>
+													<td colspan="4">品牌：<a href="">老川东</a></td>
+												</tr>
+												<tr>
+													<td>商品名称：老川东牛肉丝麻辣味13g*20袋/盒</td>
+													<td>商品编号：4191086</td>
+													<td>商品毛重：340.00g</td>
+													<td>商品产地：中国四川</td>
+												</tr>
+												<tr>
+													<td>牛肉分类：牛肉丝</td>
+													<td>即食蛋制品：其它</td>
+													<td>猪肉分类：其它</td>
+													<td>国产/进口：国产</td>
+												</tr>
+												<tr>
+													<td>鸡肉分类：其它</td>
+													<td>包装单位：盒装</td>
+													<td>加工工艺：其它</td>
+													<td>口味：麻辣味</td>
+												</tr>
+												<tr>
+													<td>省份：四川省</td>
+													<td>鸭肉分类：其它</td>
+													<td>鱼类制品：其它</td>
+													<td>分类：牛肉类</td>
+												</tr>
+												<tr>
+													<td>资质认证：其它</td>
+													<td>包装：其它</td>
+												</tr>
+											</table>
+											<img src="./详情/5af50b51N67f09755.jpg" width="1080px"/>
+										</div>
+										<div class="hide">
+											<div class="zt">
+												<ul>
+													<li>主体</li>
+												</ul>
+												<ul>
+													<li>类别</li>
+													<li>口味</li>
+													<li>包装</li>
+													<li>特性</li>
+													<li>国别</li>
+													<li>品牌</li>
+													<li>净含量</li>
+													<li>保质期</li>
+													<li>储存方法</li>
+												</ul>
+												<ul>
+													<li>牛肉类</li>
+													<li>麻辣味</li>
+													<li>独立小包装</li>
+													<li>其它</li>
+													<li>国产</li>
+													<li>老川东</li>
+													<li>260g</li>
+													<li>9个月</li>
+													<li>建议置于阴凉干燥处</li>
+												</ul>
+											</div>
+											<div class="bao">
+												包装清单&nbsp;&nbsp;老川东 牛肉丝麻辣味13g*20袋/盒
+											</div>
+										</div>
+										<div class="hide" id="pi">
+											<ul>
+												<li>
+													<h3 style="color:#d61b1b">厂家服务</h3>
+													<p>*</p>
+												</li>
+												<li>
+													<h3 style="color:#d61b1b">厂家服务</h3>
+													<p>京东平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务。请您放心购买！
+													注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！</p>
+												</li>
+												<li>
+													<h3 style="color:#d61b1b"> 正品行货</h3>
+													<p>京东商城向您保证所售商品均为正品行货，京东自营商品开具机打发票或电子发票。</p>
+												</li>
+												<li>
+													<h3 style="color:#d61b1b">全国联保</h3>
+													<p>凭质保证书及京东商城发票，可享受全国联保服务（奢侈品、钟表除外；奢侈品、钟表由京东联系保修，享受法定三包售后服务），与您亲临商场选购的商品享受相同的质量保证。京东商城还为您提供具有竞争力的商品价格和运费政策，请您放心购买！
+
+													注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！</p>
+												</li>
+											</ul>
+											<h6 style="color:#d61b1b">权利声明：</h6>
+											<p style="font-size:12px">京东上的所有商品信息、客户评价、商品咨询、网友讨论等内容，是京东重要的经营资源，未经许可，禁止非法转载使用。
+
+											注：本站商品信息均来自于合作方，其真实性、准确性和合法性由信息拥有者（合作方）负责。本站不提供任何保证，并不承担任何法律责任。</p>
+											<h6 style="color:#d61b1b">价格说明：</h6>
+											<p style="font-size:12px"><span style="font-weight:bold">京东价：</span><span>京东价为商品的销售价，是您最终决定是否购买商品的依据。</span></p>
+											<p style="font-size:12px"><span style="font-weight:bold">划线价：</span><span>商品展示的划横线价格为参考价，并非原价，该价格可能是品牌专柜标价、商品吊牌价或由品牌供应商提供的正品零售价（如厂商指导价、建议零售价等）或该商品在京东平台上曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价等可能会与您购物时展示的不一致，该价格仅供您参考</span></p>
+											<p style="font-size:12px"><span style="font-weight:bold">折扣：</span><span>如无特殊说明，折扣指销售商在原价、或划线价（如品牌专柜标价、商品吊牌价、厂商指导价、厂商建议零售价）等某一价格基础上计算出的优惠比例或优惠金额；如有疑问，您可在购买前联系销售商进行咨询。</span></p>
+											<p style="font-size:12px">异常问题：<span>商品促销信息以商品详情页“促销”栏中的信息为准；商品的具体售价以订单结算页价格为准；如您发现活动商品售价或促销信息有异常，建议购买前先联系销售商咨询。</span></p>
+										</div>
+										<div class="hide">
+											<img src="./详情/评1.png"/>
+											<img src="./详情/评2.png"/>
+											<img src="./详情/评3.png"/>
+											<img src="./详情/评4.png"/>
+											<img src="./详情/评5.png"/>
+											<img src="./详情/评6.png"/>
+										</div>
+										<div class="hide">
+											<ul>
+												<li><img src="./详情/好1.png"/></li>
+												<li><img src="./详情/好2.png"/></li>
+												<li><img src="./详情/好3.png"/></li>
+												<li><img src="./详情/好4.png"/></li>
+											</ul>
+											<ul>
+												<li><img src="./详情/好5.png"/></li>
+												<li><img src="./详情/好6.png"/></li>
+												<li><img src="./详情/好7.png"/></li>
+												<li><img src="./详情/好8.png"/></li>
+											</ul>
+										</div>
+									</div>
+							</div>
+							<div class="m2mr-bottom">
+								
+							</div>
+						</div>
+					</div>
+					<!--图片-->
+					<div class="main2-bottom">
+						<img src="./详情/58b78a0cNe619c487.jpg"/>
+						<img src="./详情/58b78a0cN6b4e0760.jpg"/>
+						<img src="./详情/58b78a0bNa6bf84ad.jpg"/>
+						<img src="./详情/58b78a0bNffbda1ee.jpg"/>
+						<img src="./详情/58b78a0dNce87a5fc.jpg"/>
+						<img src="./详情/58b78a0eNa17bbcbf.jpg"/>
+						<img src="./详情/58b78a0eNcc63a755.jpg"/>
+						<img src="./详情/58b78a0eNe5bf8d3e.jpg"/>
+						<img src="./详情/58b78a0fN1757262f.jpg"/>
+						<img src="./详情/58b78a0fN0f8ef503.jpg"/>
+						<img src="./详情/58b78a0fN614084a6.jpg"/>
+						<img src="./详情/58b78a10Ndb5aba14.jpg"/>
+					</div>
+				</div>
+				<div class="main3"></div>
+			</div>
+
+			<!--底部-->
+			<div class="foot">
+				<div class="foot-top">
+					<ul>
+						<li>
+							<div class="icon">
+								多
+							</div>
+							<div class="dz">
+								品类齐全，轻松购物
+							</div>
+						</li>
+						<li>
+							<div class="icon">
+								快
+							</div>
+							<div class="dz">
+								多仓直发，极速配送
+							</div>
+						</li>
+						<li>
+							<div class="icon">
+								好
+							</div>
+							<div class="dz">
+								正品行货，精致服务
+							</div>
+						</li>
+						<li>
+							<div class="icon">
+								省
+							</div>
+							<div class="dz">
+								天天低价，畅选无忧
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="foot-middle">
+					<ul class="ul">
+						<li>购物指南</li>
+						<li>购物流程</li>
+						<li>会员介绍</li>
+						<li>生活旅行</li>
+						<li>常见问题</li>
+						<li>大家电</li>
+						<li>联系客服</li>
+					</ul>
+					<ul class="ul">
+						<li>配送方式</li>
+						<li>上门自提</li>
+						<li>211限时达</li>
+						<li>配送服务查询</li>
+						<li>配送费收取标准</li>
+						<li>海外配送</li>
+					</ul>
+					<ul class="ul">
+						<li>支付方式</li>
+						<li>货到付款</li>
+						<li>在线支付</li>
+						<li>分期付款</li>
+						<li>邮局汇款</li>
+						<li>公司转账</li>
+					</ul>
+					<ul class="ul">
+						<li>售后服务</li>
+						<li>售后政策</li>
+						<li>价格保护</li>
+						<li>退款说明</li>
+						<li>返修/退换货</li>
+						<li>取消订单</li>
+					</ul>
+					<ul class="ul">
+						<li>特色服务</li>
+						<li>夺宝岛</li>
+						<li>DIY装机</li>
+						<li>延保服务</li>
+						<li>京东E卡</li>
+						<li>京东通信</li>
+						<li>京东JD+</li>
+					</ul>
+					<ul class="ul">
+						<li>京东自营覆盖区县</li>
+						<li>京东已向...</li>
+					</ul>
+				</div>
+				<div class="foot-bottom">
+					<div class="fb-top">
+						<ul>
+							<li>关于我们</li>
+							<li>联系我们</li>
+							<li>联系客服</li>
+							<li>合作招商</li>
+							<li>商家帮助</li>
+							<li>营销中心</li>
+							<li>手机京东</li>
+							<li>友情链接</li>
+							<li>销售联盟</li>
+							<li>京东社区</li>
+							<li>风险监测</li>
+							<li>隐私政策</li>
+							<li>京东公益</li>
+							<li>English Site</li>
+							<li>Median &amp; IR</li>
+							
+						</ul>
+
+					</div>
+					<div class="fb-middle">
+
+						<ul>
+
+							<li>京公网安备 110000020000088号</li>
+							<li>京IC证070359号</li>
+							<li>互联网药品信息服务资格证编号(京)-经营性-2014-0008</li>
+							<li>新出发京零 字第大120007号</li>
+						</ul>
+						<ul>
+
+							<li>互联网出版许可证编号新出网证(京)字150号</li>
+							<li>出版物经营许可证</li>
+							<li>网络文化经营许可证京网文[2014]2148-348号</li>
+							<li>违法和不良信息举报电话 : 4006561155</li>
+						</ul>
+						<ul>
+							<li>Copyright © 2004-2018 京东JD.com 版权所有</li>
+							<li>消费者维权热线 : 4006067733 经营证照</li>
+						</ul>
+							<ul>
+							<li>Global Site </li>
+							<li>Cant Poccnn </li>
+							<li>Situs Indonesia </li>
+						</ul>
+							<ul>
+							<li>京东旗下网站 : 京东钱包</li>
+							<li> 京东云</li>
+						</ul>
+					</div>
+					<div class="fb-bottom">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
